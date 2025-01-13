@@ -1,0 +1,29 @@
+{
+  "name": "telegram-youtube-downloader-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot to download YouTube videos using Agatz API",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "youtube",
+    "downloader",
+    "nodejs"
+  ],
+  "author": "testerjdds",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
